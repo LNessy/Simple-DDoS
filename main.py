@@ -3,9 +3,9 @@ import os
 import sys
 import threading
 os.system("cls")
+print("Tools By Nessy")
 host = input("\nEnter host: ")
 port = int(input("\nEnter port: "))
-print("Tools By Nessy")
 print("Starting Attack...")
 print("\n")
 def run(h):
