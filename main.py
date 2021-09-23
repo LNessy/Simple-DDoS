@@ -7,6 +7,7 @@ os.system("cls")
 host = input("\nEnter host: ")
 port = int(input("\nEnter port: "))
 print("Tools By Nessy")
+input("Press Enter To Countinue")
 print("Starting Attack....")
 def run(h):
     while True:
