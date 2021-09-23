@@ -6,7 +6,7 @@ import threading
 os.system("cls")
 host = input("\nEnter host: ")
 port = int(input("\nEnter port: "))
-run = input("\nPress Enter To Start "))
+run = input("\nPress Enter To Countinue "))
 print("Tools By Nessy")
 print("Starting Attack....")
 def run(h):
